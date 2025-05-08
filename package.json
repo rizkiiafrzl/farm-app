@@ -1,0 +1,35 @@
+{
+  "name": "farm",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo --hostname 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.18",
+<<<<<<< HEAD
+    "@vercel/postgres": "^0.10.0",
+    "bcryptjs": "^3.0.2",
+    "chart.js": "^4.4.1",
+    "js-cookie": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "next": "14.1.0",
+    "pg": "^8.15.6",
+=======
+    "chart.js": "^4.4.1",
+    "next": "14.1.0",
+>>>>>>> f65ae7cb2b3b00917723eb89c06f45612dfdf1db
+    "react": "^18",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0"
+  }
+}
